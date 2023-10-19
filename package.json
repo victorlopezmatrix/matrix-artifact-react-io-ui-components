@@ -26,7 +26,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace matrix-artifact-react-io-ui-components-example",
+    "app": "yarn workspace app",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -78,7 +78,7 @@
     "react-native": "*"
   },
   "workspaces": [
-    "example"
+    "app"
   ],
   "packageManager": "yarn@3.6.1",
   "engines": {
@@ -87,7 +87,7 @@
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
-      "<rootDir>/example/node_modules",
+      "<rootDir>/app/node_modules",
       "<rootDir>/lib/"
     ]
   },
