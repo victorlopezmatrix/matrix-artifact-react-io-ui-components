@@ -78,7 +78,8 @@
     "react-native": "*"
   },
   "workspaces": [
-    "app"
+    "app",
+    "workspaces/*"
   ],
   "packageManager": "yarn@3.6.1",
   "engines": {
