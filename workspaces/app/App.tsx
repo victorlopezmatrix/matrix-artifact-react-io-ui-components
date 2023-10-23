@@ -6,14 +6,10 @@
  */
 
 import React from 'react';
-import {
-  SafeAreaView,
-  View,
-} from 'react-native';
-import {Title} from 'matrix-artifact-react-io-ui-components'
+import {SafeAreaView, View} from 'react-native';
+import {Title} from 'matrix-artifact-react-io-ui-components';
 
 function App(): JSX.Element {
-
   return (
     <SafeAreaView>
       <View>
