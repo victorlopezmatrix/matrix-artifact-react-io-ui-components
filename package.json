@@ -24,7 +24,7 @@
     "!**/__fixtures__",
     "!**/__mocks__",
     "!**/.*",
-    "!src/components/**/*.test.tsx"
+    "!src/components/**/__tests__"
   ],
   "scripts": {
     "app": "yarn workspace app",
