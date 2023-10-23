@@ -23,7 +23,8 @@
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__",
-    "!**/.*"
+    "!**/.*",
+    "!src/components/**/__tests__"
   ],
   "scripts": {
     "app": "yarn workspace app",

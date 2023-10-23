@@ -11,11 +11,11 @@ npm install matrix-artifact-react-io-ui-components
 ## Usage
 
 ```js
-import { multiply } from 'matrix-artifact-react-io-ui-components';
+import { Title } from 'matrix-artifact-react-io-ui-components';
 
 // ...
 
-const result = await multiply(3, 7);
+<Title>Some text...</Title>
 ```
 
 ## Contributing
