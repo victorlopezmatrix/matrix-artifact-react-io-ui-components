@@ -2,9 +2,7 @@
   "name": "matrix-artifact-react-io-ui-components",
   "version": "0.1.0",
   "description": "Design System iO",
-  "main": "lib/commonjs/index",
-  "module": "lib/module/index",
-  "types": "lib/typescript/src/index.d.ts",
+  "main": "src/index",
   "react-native": "src/index",
   "source": "src/index",
   "files": [
